@@ -20,7 +20,7 @@ def traverse(node, path):
 
     traverse(node.left, path)
     traverse(node.right, path)
-    # path.pop()
+    path.pop()
 
 
 if __name__ == "__main__":
